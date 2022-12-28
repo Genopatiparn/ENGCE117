@@ -8,7 +8,6 @@ int main() {
  int **a ;
  go( &a, &b ) ;
  printf( "%d %p %p %p\n", **a, *a, a, &a ) ;
- printf("-----------------------------\n") ;
  go( &a, &c ) ;
  printf( "%d %p %p %p\n", **a, *a, a, &a ) ;
  return 0 ;
