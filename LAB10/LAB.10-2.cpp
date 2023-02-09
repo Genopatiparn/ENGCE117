@@ -13,5 +13,5 @@ void TowerHanoi( int m, int i, int j ){
         TowerHanoi( m - 1, i, k );
         printf("Disc %d from %d to %d\n", m, i, j);
         TowerHanoi( m - 1, k, j );
-    } // end if
-} // end function
+    } 
+} 
